@@ -1,5 +1,6 @@
 package com.hee1kang.klib;
 
+import android.content.Context;
 import android.util.Log;
 
 import com.hee1kang.klib.BuildConfig;
@@ -9,6 +10,15 @@ public class Tog {
     public static int versionCode = 1;
     private static String TAG = "#{V" + versionCode +"}";
     public static boolean SHOW = true;
+
+    public static void init(Context context)
+    {
+        Object object = Util.getBuildConfigValue(context,"VERSION_CODE");
+        if(object != null)
+        {
+            setVersionCode((int)object);
+        }
+    }
 
     public static void setVersionCode(int val)
     {
