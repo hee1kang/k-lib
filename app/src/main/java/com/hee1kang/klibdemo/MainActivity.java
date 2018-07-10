@@ -3,7 +3,7 @@ package com.hee1kang.klibdemo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.hee1kang.klib.Tog;
+import com.hee1kang.klib.util.Tog;
 
 public class MainActivity extends AppCompatActivity {
 

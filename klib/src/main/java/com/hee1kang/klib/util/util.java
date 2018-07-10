@@ -1,4 +1,4 @@
-package com.hee1kang.klib;
+package com.hee1kang.klib.util;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -12,13 +12,12 @@ import android.location.Location;
 import android.net.Uri;
 import android.os.Environment;
 import android.support.annotation.NonNull;
-import android.support.annotation.WorkerThread;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 
-import org.joda.time.DateTime;
+import com.hee1kang.klib.BuildConfig;
 
 import java.io.File;
 import java.util.List;

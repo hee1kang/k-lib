@@ -1,4 +1,4 @@
-package com.hee1kang.klib;
+package com.hee1kang.klib.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -1,12 +1,20 @@
-package com.hee1kang.klib;
+package com.hee1kang.klib.util;
 
 import android.util.Log;
 
+import com.hee1kang.klib.BuildConfig;
+
 public class Tog {
 
-    public static final String TAG = "#{V" + BuildConfig.VERSION_CODE +"}";
+    public static int versionCode = 1;
+    private static String TAG = "#{V" + versionCode +"}";
     public static boolean SHOW = true;
 
+    public static void setVersionCode(int val)
+    {
+        versionCode = val;
+        TAG = "#{V" + versionCode +"}";
+    }
 
     public static void setLogShow(boolean val)
     {

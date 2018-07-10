@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">klib</string>
+    <string name="klib_build_date">klib</string>
 </resources>
