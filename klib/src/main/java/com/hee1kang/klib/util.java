@@ -1,4 +1,4 @@
-package com.hee1kang.klib.util;
+package com.hee1kang.klib;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -16,8 +16,6 @@ import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
-
-import com.hee1kang.klib.BuildConfig;
 
 import java.io.File;
 import java.util.List;
