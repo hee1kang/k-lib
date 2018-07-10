@@ -24,10 +24,6 @@ import java.io.File;
 import java.util.List;
 import java.util.Locale;
 
-/**
- * Created by Eric on 2018-07-10.
- */
-
 public class util {
 
     public static final String N = "0";
