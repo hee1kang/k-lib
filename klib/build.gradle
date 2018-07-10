@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.hee1kang'
+
 repositories {
     mavenCentral()
     maven { url 'https://maven.fabric.io/public' }
@@ -21,20 +22,11 @@ android {
 
     }
     buildTypes {
-        debug {
-            debuggable true
-            zipAlignEnabled false
-            minifyEnabled false
-            shrinkResources false
-            ext.enableCrashlytics = false
-            buildConfigField "boolean", "DEBUG_LOG", "true"
-        }
         release {
             debuggable false
             zipAlignEnabled true
             minifyEnabled true
             shrinkResources false
-            buildConfigField "boolean", "DEBUG_LOG", "false"
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
